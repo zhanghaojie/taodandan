@@ -1,0 +1,4 @@
+[ 2012-05-28T14:55:13+08:00 ] /Examples/Ajax/ | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.001319s ]
+[ 2012-05-28T14:55:13+08:00 ] /Examples/Ajax/ | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 5  [ RunTime:0.002750s ]
+[ 2012-05-28T15:01:19+08:00 ] /Examples/Ajax/index.php | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.000175s ]
+[ 2012-05-28T15:01:19+08:00 ] /Examples/Ajax/index.php | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 5  [ RunTime:0.000176s ]
