@@ -1,0 +1,141 @@
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000464s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000592s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.001245s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000555s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000621s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.011659s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011734s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.000752s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.000783s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000576s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000804s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003084s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000831s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000898s ]
+[ 2012-07-03T10:31:12+08:00 ] /top/demos.css | ERR: (ThinkException) 无法加载模块demos.css
+[ 2012-07-03T10:31:30+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-07-03T10:31:30+08:00 ] /top/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000447s ]
+[ 2012-07-03T10:31:30+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000585s ]
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.000770s ]
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000263s ]
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000327s ]
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.008857s ]
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008942s ]
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.000515s ]
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.000476s ]
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000215s ]
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000566s ]
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002002s ]
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000455s ]
+[ 2012-07-03T10:31:31+08:00 ] /top/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000525s ]
+[ 2012-07-03T10:31:31+08:00 ] /top/demos.css | ERR: (ThinkException) 无法加载模块demos.css
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000447s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000582s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.000696s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000278s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000339s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.008954s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009017s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.000355s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.000332s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000151s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000379s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001375s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000354s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000410s ]
+[ 2012-07-03T10:39:03+08:00 ] /top/demos.css | ERR: (ThinkException) 无法加载模块demos.css
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000448s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000583s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.000668s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000240s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000300s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.009378s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009454s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.000359s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.000338s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000153s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000378s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001387s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000346s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000401s ]
+[ 2012-07-03T10:41:16+08:00 ] /top/demos.css | ERR: (ThinkException) 无法加载模块demos.css
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000378s ]
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000449s ]
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.000695s ]
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000267s ]
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000329s ]
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.008925s ]
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008987s ]
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.000382s ]
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.000323s ]
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000153s ]
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000364s ]
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001372s ]
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000322s ]
+[ 2012-07-03T10:42:05+08:00 ] /top/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000376s ]
+[ 2012-07-03T10:42:06+08:00 ] /top/demos.css | ERR: (ThinkException) 无法加载模块demos.css
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000476s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000613s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.000745s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000264s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000328s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.009124s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009192s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.000367s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.000306s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000142s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000384s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001353s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000331s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000385s ]
+[ 2012-07-03T10:45:18+08:00 ] /top/demos.css | ERR: (ThinkException) 无法加载模块demos.css
+[ 2012-07-03T10:47:14+08:00 ] /top/demos.css | ERR: (ThinkException) 无法加载模块demos.css
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000401s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000476s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.000691s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000259s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000320s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.008645s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008706s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.000402s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.000320s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000143s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000376s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001396s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000326s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000380s ]
+[ 2012-07-03T10:48:07+08:00 ] /top/demos.css | ERR: (ThinkException) 无法加载模块demos.css

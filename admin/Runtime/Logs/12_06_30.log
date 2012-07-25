@@ -1,0 +1,234 @@
+[ 2012-06-30T09:34:35+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:34:35+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.001203s ]
+[ 2012-06-30T09:34:35+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.002106s ]
+[ 2012-06-30T09:34:35+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:34:35+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000735s ]
+[ 2012-06-30T09:34:35+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000793s ]
+[ 2012-06-30T09:38:38+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:38:38+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000653s ]
+[ 2012-06-30T09:38:38+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000770s ]
+[ 2012-06-30T09:38:38+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:38:38+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000372s ]
+[ 2012-06-30T09:38:38+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000423s ]
+[ 2012-06-30T09:38:48+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:38:48+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000810s ]
+[ 2012-06-30T09:38:48+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000980s ]
+[ 2012-06-30T09:38:48+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:38:48+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000638s ]
+[ 2012-06-30T09:38:48+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000728s ]
+[ 2012-06-30T09:38:59+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:38:59+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000724s ]
+[ 2012-06-30T09:38:59+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000857s ]
+[ 2012-06-30T09:38:59+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:38:59+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000422s ]
+[ 2012-06-30T09:38:59+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000480s ]
+[ 2012-06-30T09:39:10+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:39:10+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000718s ]
+[ 2012-06-30T09:39:10+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000852s ]
+[ 2012-06-30T09:39:10+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:39:10+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000384s ]
+[ 2012-06-30T09:39:10+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000438s ]
+[ 2012-06-30T09:39:21+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:39:21+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000694s ]
+[ 2012-06-30T09:39:21+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000813s ]
+[ 2012-06-30T09:39:21+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:39:21+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000374s ]
+[ 2012-06-30T09:39:21+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000426s ]
+[ 2012-06-30T09:39:32+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:39:32+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000699s ]
+[ 2012-06-30T09:39:32+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000775s ]
+[ 2012-06-30T09:39:32+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:39:32+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000410s ]
+[ 2012-06-30T09:39:32+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000467s ]
+[ 2012-06-30T09:39:43+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:39:43+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000622s ]
+[ 2012-06-30T09:39:43+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000690s ]
+[ 2012-06-30T09:39:43+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:39:43+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000378s ]
+[ 2012-06-30T09:39:43+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000430s ]
+[ 2012-06-30T09:39:53+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:39:53+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000631s ]
+[ 2012-06-30T09:39:53+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000700s ]
+[ 2012-06-30T09:39:53+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:39:53+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000376s ]
+[ 2012-06-30T09:39:53+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000429s ]
+[ 2012-06-30T09:40:04+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:40:04+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000681s ]
+[ 2012-06-30T09:40:04+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000753s ]
+[ 2012-06-30T09:40:04+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:40:04+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000390s ]
+[ 2012-06-30T09:40:04+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000442s ]
+[ 2012-06-30T09:40:15+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:40:15+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000619s ]
+[ 2012-06-30T09:40:15+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000685s ]
+[ 2012-06-30T09:40:15+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:40:15+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000370s ]
+[ 2012-06-30T09:40:15+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000443s ]
+[ 2012-06-30T09:40:26+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:40:26+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000680s ]
+[ 2012-06-30T09:40:26+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000752s ]
+[ 2012-06-30T09:40:26+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:40:26+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000407s ]
+[ 2012-06-30T09:40:26+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000463s ]
+[ 2012-06-30T09:40:37+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:40:37+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000598s ]
+[ 2012-06-30T09:40:37+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000665s ]
+[ 2012-06-30T09:40:37+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:40:37+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000352s ]
+[ 2012-06-30T09:40:37+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000403s ]
+[ 2012-06-30T09:40:48+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:40:48+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000625s ]
+[ 2012-06-30T09:40:48+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000693s ]
+[ 2012-06-30T09:40:48+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:40:48+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000374s ]
+[ 2012-06-30T09:40:48+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000425s ]
+[ 2012-06-30T09:40:59+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:40:59+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000602s ]
+[ 2012-06-30T09:40:59+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000671s ]
+[ 2012-06-30T09:40:59+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:40:59+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000373s ]
+[ 2012-06-30T09:40:59+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000425s ]
+[ 2012-06-30T09:41:10+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:41:10+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000655s ]
+[ 2012-06-30T09:41:10+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000728s ]
+[ 2012-06-30T09:41:10+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:41:10+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000391s ]
+[ 2012-06-30T09:41:10+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000446s ]
+[ 2012-06-30T09:41:21+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:41:21+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000588s ]
+[ 2012-06-30T09:41:21+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000655s ]
+[ 2012-06-30T09:41:21+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:41:21+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000370s ]
+[ 2012-06-30T09:41:21+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000421s ]
+[ 2012-06-30T09:41:32+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:41:32+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000634s ]
+[ 2012-06-30T09:41:32+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000708s ]
+[ 2012-06-30T09:41:32+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:41:32+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000400s ]
+[ 2012-06-30T09:41:32+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000459s ]
+[ 2012-06-30T09:41:43+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:41:43+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000607s ]
+[ 2012-06-30T09:41:43+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000682s ]
+[ 2012-06-30T09:41:43+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:41:43+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000437s ]
+[ 2012-06-30T09:41:43+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000499s ]
+[ 2012-06-30T09:41:54+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:41:54+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000602s ]
+[ 2012-06-30T09:41:54+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000672s ]
+[ 2012-06-30T09:41:54+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:41:54+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000368s ]
+[ 2012-06-30T09:41:54+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000420s ]
+[ 2012-06-30T09:42:05+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:42:05+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000625s ]
+[ 2012-06-30T09:42:05+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000697s ]
+[ 2012-06-30T09:42:05+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:42:05+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000369s ]
+[ 2012-06-30T09:42:05+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000421s ]
+[ 2012-06-30T09:42:16+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:42:16+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000641s ]
+[ 2012-06-30T09:42:16+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000714s ]
+[ 2012-06-30T09:42:16+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:42:16+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000413s ]
+[ 2012-06-30T09:42:16+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000476s ]
+[ 2012-06-30T09:42:27+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:42:27+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000617s ]
+[ 2012-06-30T09:42:27+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000701s ]
+[ 2012-06-30T09:42:27+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:42:27+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000386s ]
+[ 2012-06-30T09:42:27+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000440s ]
+[ 2012-06-30T09:42:38+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:42:38+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000639s ]
+[ 2012-06-30T09:42:38+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000712s ]
+[ 2012-06-30T09:42:38+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:42:38+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000396s ]
+[ 2012-06-30T09:42:38+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000452s ]
+[ 2012-06-30T09:42:49+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:42:49+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000590s ]
+[ 2012-06-30T09:42:49+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000658s ]
+[ 2012-06-30T09:42:49+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:42:49+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+[ 2012-06-30T09:42:49+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000402s ]
+[ 2012-06-30T09:43:00+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:43:00+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000598s ]
+[ 2012-06-30T09:43:00+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000668s ]
+[ 2012-06-30T09:43:00+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:43:00+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000392s ]
+[ 2012-06-30T09:43:00+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000444s ]
+[ 2012-06-30T09:43:11+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:43:11+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000637s ]
+[ 2012-06-30T09:43:11+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000711s ]
+[ 2012-06-30T09:43:11+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:43:11+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000392s ]
+[ 2012-06-30T09:43:11+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000448s ]
+[ 2012-06-30T09:43:22+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:43:22+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000598s ]
+[ 2012-06-30T09:43:22+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000666s ]
+[ 2012-06-30T09:43:22+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:43:22+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000354s ]
+[ 2012-06-30T09:43:22+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000404s ]
+[ 2012-06-30T09:43:33+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:43:33+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000584s ]
+[ 2012-06-30T09:43:33+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000651s ]
+[ 2012-06-30T09:43:33+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:43:33+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000389s ]
+[ 2012-06-30T09:43:33+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000441s ]
+[ 2012-06-30T09:43:44+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:43:44+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000601s ]
+[ 2012-06-30T09:43:44+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000669s ]
+[ 2012-06-30T09:43:44+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:43:44+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000371s ]
+[ 2012-06-30T09:43:44+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000422s ]
+[ 2012-06-30T09:43:55+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:43:55+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000600s ]
+[ 2012-06-30T09:43:55+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000667s ]
+[ 2012-06-30T09:43:55+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:43:55+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000366s ]
+[ 2012-06-30T09:43:55+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000418s ]
+[ 2012-06-30T09:44:06+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:44:06+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000641s ]
+[ 2012-06-30T09:44:06+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000714s ]
+[ 2012-06-30T09:44:06+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:44:06+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000392s ]
+[ 2012-06-30T09:44:06+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000452s ]
+[ 2012-06-30T09:44:17+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:44:17+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000638s ]
+[ 2012-06-30T09:44:17+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000711s ]
+[ 2012-06-30T09:44:17+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:44:17+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000391s ]
+[ 2012-06-30T09:44:17+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000453s ]
+[ 2012-06-30T09:44:28+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:44:28+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000605s ]
+[ 2012-06-30T09:44:28+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000674s ]
+[ 2012-06-30T09:44:28+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:44:28+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000368s ]
+[ 2012-06-30T09:44:28+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000420s ]
+[ 2012-06-30T09:44:39+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:44:39+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000577s ]
+[ 2012-06-30T09:44:39+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000644s ]
+[ 2012-06-30T09:44:39+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:44:39+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000355s ]
+[ 2012-06-30T09:44:39+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000405s ]
+[ 2012-06-30T09:44:50+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:44:50+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000580s ]
+[ 2012-06-30T09:44:50+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000647s ]
+[ 2012-06-30T09:44:50+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:44:50+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000366s ]
+[ 2012-06-30T09:44:50+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000418s ]
+[ 2012-06-30T09:45:01+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:45:01+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000593s ]
+[ 2012-06-30T09:45:01+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000670s ]
+[ 2012-06-30T09:45:01+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:45:01+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000362s ]
+[ 2012-06-30T09:45:01+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000413s ]
+[ 2012-06-30T09:45:12+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:45:12+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000595s ]
+[ 2012-06-30T09:45:12+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000663s ]
+[ 2012-06-30T09:45:12+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:45:12+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000364s ]
+[ 2012-06-30T09:45:12+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000427s ]
+[ 2012-06-30T09:45:23+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --START--
+[ 2012-06-30T09:45:23+08:00 ] /top/admin.php/index/performTask | INFO: Run CheckRoute Behavior [ RunTime:0.000601s ]
+[ 2012-06-30T09:45:23+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ route_check ] --END-- [ RunTime:0.000670s ]
+[ 2012-06-30T09:45:23+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --START--
+[ 2012-06-30T09:45:23+08:00 ] /top/admin.php/index/performTask | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000392s ]
+[ 2012-06-30T09:45:23+08:00 ] /top/admin.php/index/performTask | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000450s ]
