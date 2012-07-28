@@ -12,14 +12,7 @@ class UserModel extends Model
 	protected $userNick = NULL;
 	protected $userId = null;
 	protected $accessToken = null;
-	/*
-	protected $_link = array (
-		'TopUser'=>array(
-			'mapping_type'=>HAS_ONE,
-			'mapping_name'=>'top_user',
-		)
-	);
-	*/
+
 	protected function _initialize() {
 		parent::_initialize();
 		$this->topClient = new TopClient();
@@ -322,8 +315,8 @@ class UserModel extends Model
 	protected function _addItemToStorageRacks($item) {
 		$requestParams['method'] = 'taobao.item.update.listing';
 		$requestParams['session'] = $this->accessToken;
-		$requestParams['num_iid'] = $item_id['item_id'];
-		$requestParams['num'] = $item_id['num'];
+		$requestParams['num_iid'] = $item['item_id'];
+		$requestParams['num'] = $item['num'];
 		$ret = $this->topClient->exec($requestParams);
 		return $ret;
 	}
@@ -347,7 +340,7 @@ class UserModel extends Model
 			$ret = $this->_addItemToStorageRacks($item);
 			$code = $ret['code'];
 			if ($code != null) {
-				$fail[$item_id] = $ret;
+				$fail['item_id'] = $ret;
 			}
 		}
 		if (count($fail) > 0) {
@@ -445,7 +438,7 @@ class UserModel extends Model
 		$interval = new DateInterval('P1M');
 		$interval->invert = 1;
 		$startTime = $now->add($interval);
-		$now = new DateTime($topTim);
+		$now = new DateTime($topTime);
 		$interval = new DateInterval('P1D');
 		$interval->invert = 1;
 		$endTime = $now->add($interval);
@@ -490,10 +483,11 @@ class UserModel extends Model
 	}
 	
 	public function updateTrades($trades) {
-		//$newTrades = array();
-		//$replacedTrades = array();
+		if(!is_array($trades)) {
+			return false;
+		}
 		$tradeModel = D('Trade');
-		$tradeModel->startTrans();
+		//$tradeModel->startTrans();
 		foreach($trades as $trade) {
 			$tid = $trade['tid'];
 			$trade['user_id'] = $this->userId;
@@ -503,12 +497,13 @@ class UserModel extends Model
 				$replaced = true;
 			}
 			$isCommit = true;
-			while(true) {
 			$return = $tradeModel->add($trade, array(), $replaced);
+			/*
 			if (!$return) {
 				$isCommit = false;
 				break;
 			}
+			*/
 			$orders = $trade["orders"]["order"];
 			foreach($orders as $order) {
 				$orderModel = D('Order');
@@ -519,32 +514,22 @@ class UserModel extends Model
 					$replaced = true;
 				}
 				$return = $orderModel->add($order, array(), $replaced);
-				fire_log($orderModel->getLastSql(), "last add order sql");
+				//fire_log($orderModel->getLastSql(), "last add order sql");
+				/*
 				if (!$return) {
 					$isCommit = false;
 					break 2;
 				}
+				*/
 			}
-			}
-			
-			//fire_log($tradeModel->getLastSql(), "last sql");
 		}
+		/*
 		if ($isCommit) {
 			$tradeModel->commit();
 		}
 		else {
 			$tradeModel->rollback();
-		}
-		/*
-		fire_log($replacedTrades, "replaced trade");
-		fire_log($newTrades, "new trades");
-		if (count($newTrades) > 0) {
-			$tradeModel->addAll($newTrades, array(), false);
-			fire_log($tradeModel->getLastSql(), "last sql");
-		}
-		if (count($replacedTrades) > 0) {
-			$tradeModel->addAll($replacedTrades, array(), true);
-			fire_log($tradeModel->getLastSql(), "last sql");
+			return false;
 		}
 		*/
 	}

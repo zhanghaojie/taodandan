@@ -7,7 +7,7 @@ define('THINK_PATH', './ThinkPHP/');
 define('APP_HOST', 'http://localhost');
 
 //淘宝相关配置
-define('TOP_REDIRECT_URI', APP_HOST . '/top/login/login.html');
+define('TOP_REDIRECT_URI', APP_HOST . '/taodandan/login/login.html');
 
 if (APP_AUTH_TYPE === 'TOP') {
 	define('TOP_IS_SIGNAL', true);
