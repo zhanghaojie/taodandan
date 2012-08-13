@@ -64,7 +64,7 @@ class IndexAction extends Action
 	
     public function index() {
     	if (LoginAction::isLogin() === true) {
-    		$this->_debug();
+    		//$this->_debug();
     		$this->mainPage();
     	}
     	else {
