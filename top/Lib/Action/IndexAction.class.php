@@ -22,8 +22,10 @@ class IndexAction extends Action
 	}
 	
 	protected function _debug() {
-		$this->userModel->updateUserInfo();
-		
+		//$this->userModel->updateUserInfo();
+		$this->userModel->deleteAllItems();
+		$this->userModel->updateItems();
+		/*
 		fire_log(LoginAction::getLoginInfo(), '登陆信息');
 		FirePHP::getInstance(true)->log($this->userModel->_getTopUserInfo(), '用户信息');
 		
@@ -32,10 +34,6 @@ class IndexAction extends Action
     	$ret = $this->userModel->getShopRemainShowcase();
 		FirePHP::getInstance(true)->log($ret, '剩余橱窗');
     	$ret = $this->userModel->getOnsaleItems();
-		
-		$page = new Page($ret['total_results'], $ret['total_results']);
-		$page = $page->show();
-		
 		FirePHP::getInstance(true)->log($ret, '销售中的宝贝');
     	$ret = $this->userModel->getOnShowcaseItems();
 		FirePHP::getInstance(true)->log($ret, '橱窗中的宝贝');
@@ -46,6 +44,7 @@ class IndexAction extends Action
 		fire_log($ret, "获取前40个订单");
 		
 		$this->userModel->updateTrades($ret['trades']['trade']);
+		*/
 	}
 	
 	public function createTask() {
@@ -64,7 +63,7 @@ class IndexAction extends Action
 	
     public function index() {
     	if (LoginAction::isLogin() === true) {
-    		//$this->_debug();
+    		$this->_debug();
     		$this->mainPage();
     	}
     	else {

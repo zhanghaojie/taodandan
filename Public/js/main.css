@@ -14,3 +14,14 @@
 #main_content_left {
 	width: 200px;
 }
+.left_menu {
+	padding-left:0px;
+	list-style-type: none;
+}
+.left_submenu {
+	padding-left:20px;
+	list-style-type: none;
+}
+#main_content_left {
+	font-size: 14px;
+}

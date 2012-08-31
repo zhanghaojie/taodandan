@@ -2,196 +2,49 @@
 
 import("ORG.Util.FirePHP");
 import("ORG.Util.Session");
-import("@.Model.TopAccessor");
 
-class UserModel extends Model
+class TopAccessor
 {
-	protected $pk  = 'user_id';
+	private $accessToken = null;
+	private $topClient = null;
 	
-	protected $accessToken = null;
-	protected $userId = null;
-	protected $userNick = null;
-	protected $userInfo = null;
-	protected $topAccessor = null;
-	
-	public function __construct($userId) {
-		parent::__construct();
-		$this->topAccessor = new TopAccessor();
-		$this->setUserId($userId);
+	public function __construct($accessToken = null) {
+		$this->topClient = new TopClient();
+		$this->topClient->appkey = TOP_APP_KEY;
+    	$this->topClient->secretKey = TOP_APP_SECRET;
+    	$this->topClient->gatewayUrl = TOP_API_URL;
+    	$this->topClient->format = "json";
+    	$this->setAccessToken($accessToken);
 	}
 	
-	public function setUserId($userId) {
-		$this->accessToken = LoginAction::getAccessToken();
-		$this->userInfo = Session::get('user_info');
-		$this->userId = $this->userInfo['user_id'];
-		$this->userNick = $this->userInfo['nick'];
-		if ($userId) {
-			$this->userInfo = $this->where("user_id={$userId}")->select();
-			if ($this->userInfo) {
-				$this->userId = $this->userInfo['user_id'];
-				$this->userNick = $this->userInfo['nick'];
-				$this->accessToken = $this->userInfo['access_token'];
-			}
-		}
-		$this->topAccessor->setAccessToken($this->accessToken);
+	public function setAccessToken($accessToken = null) {
+		$this->accessToken = $accessToken;
 	}
 	
-	public function getUserId() {
-		return $this->userId;
+	public function getAccessToken() {
+		return $this->accessToken;
 	}
 	
-	protected function _initUserDB($userId) {
-		$itemGroupModel = D('ItemGroup');
-		$data['user_id'] = $userId;
-		$data['name'] = '必推荐宝贝';
-		$itemGroupModel->create($data);
-		$itemGroupModel->add();
-		
-		$data['user_id'] = $userId;
-		$data['name'] = '必不推荐宝贝';
-		$itemGroupModel->create($data);
-		$itemGroupModel->add();
-	}
-	
-	public function updateUserInfo() {
-		$topUserInfo = $this->topAccessor->getUserInfo();
-		if ($topUserInfo['code']) {
-			return false;
-		}
-		$user = array();
-		$user['user_id'] = $topUserInfo['user_id'];
-		$user['nick'] = $topUserInfo['nick'];
-		$user['last_login'] = date(DATE_ATOM);
-		$user['access_token'] = LoginAction::getAccessToken();
-		
-		$ret = $this->where("user_id = {$user['user_id']}")->count();
-		Session::set('user_info', $user);
-		$this->userId = $user['user_id'];
-		$this->userNick = $user['nick'];
-		$this->userInfo = $user;
-		$this->accessToken = $user['access_token'];
-		$this->startTrans();
-		$isCommit = true;
-		if ($ret > 0) {
-			$replaced = true;
-		}
-		else {
-			$replaced = false;
-		}
-		while (true) {
-			$result = $this->add($user, array(), replaced);
-			if (!$result) {
-				$isCommit = false;
-				break;
-			}
-			
-			if ($topUserInfo) {
-				$topUserModel = D('TopUser');
-				$result = $topUserModel->add($topUserInfo, array(), replaced);
-				if (!$result) {
-					$isCommit = false;
-					break;
-				}
-			}
-			
-			$topUserLocation = $topUserInfo['location'];
-			if ($topUserLocation) {
-				$topUserLocation['user_id'] = $this->userId;
-				$userLocationModel = D('UserLocation');
-				$result = $userLocationModel->add($topUserLocation, array(), replaced);
-				if (!$result) {
-					$isCommit = false;
-					break;
-				}
-			}
-			
-			$buyerCredit = $topUserInfo['buyer_credit'];
-			if ($buyerCredit) {
-				$buyerCredit['user_id'] = $this->userId;
-				$buyerCreditModel = D('BuyerCredit');
-				$buyerCreditModel->add($buyerCredit, array(), replaced);
-				if (!$result) {
-					$isCommit = false;
-					break;
-				}
-			}
-			
-			$sellerCredit = $topUserInfo['seller_credit'];
-			if ($sellerCredit) {
-				$sellerCredit['user_id'] = $this->userId;
-				$sellerCreditModel = D('SellerCredit');
-				$sellerCreditModel->add($sellerCredit, array(), replaced);
-				if (!$result) {
-					$isCommit = false;
-					break;
-				}
-			}
-			break;
-		}
-		
-		if (!$replaced && $isCommit) {
-			$this->_initUserDB($topUserInfo['user_id']);
-		}
-		
-		if ($isCommit) {
-			$this->commit();
-		}
-		else {
-			$this->rollback();
-			return false;
-		}
-		return true;
-	}
-	
-	public function deleteAllItems() {
-		$itemModel = D('Item');
-		$itemModel->where("user_id={$this->userId}")->delete();
-	}
-	
-	public function updateItems() {
-		$items = $this->topAccessor->getInventoryItems();
-		$items = $items['items']['item'];
-		
-		$itemModel = D('Item');
-		foreach($items as $item) {
-			$item['user_id'] = $this->userId;
-			$item['approve_status'] = 'instock';
-			if ($itemModel->create($item)) {
-				$itemModel->add();
-			}
-		}
-		
-		$items = $this->topAccessor->getOnsaleItems();
-		$items = $items['items']['item'];
-		
-		foreach($items as $item) {
-			$item['user_id'] = $this->userId;
-			$item['approve_status'] = 'onsale';
-			if ($itemModel->create($item)) {
-				$itemModel->add();
-			}
-		}
-	}
-	//创建宝贝分组
-	public function createItemGroup($groupName) {
-		
-	}
-	
-	public function getItemGroupById($groupId) {
-		
-	}
-	
-	public function getItemGroupByName($groupName) {
-		
-	}
-	
-	//获取剩余橱窗
-	public function getShopRemainShowcase() {
-		$requestParams['method'] = 'taobao.shop.remainshowcase.get';
+	public function getUserInfo($fields) {
+		$requestParams['method'] = 'taobao.user.get';
 		$requestParams['session'] = $this->accessToken;
+		if ($fields) {
+			$requestParams['fields'] = $fields;
+		}
+		else {
+			$requestParams['fields'] = "user_id,uid,nick,sex,buyer_credit,seller_credit,location,created,last_visit,birthday,type,status,consumer_protection";
+		}
 		$ret = $this->topClient->exec($requestParams);
-		return $ret;
+		$user = $ret['user'];
+		
+		if ($user) {
+			return $user;	
+		}
+		else {
+			return $ret;
+		}
 	}
+	
 	//获取仓库中的宝贝
 	public function getInventoryItems($fields, $params) {
 		$requestParams['method'] = 'taobao.items.inventory.get';
@@ -200,7 +53,7 @@ class UserModel extends Model
 			$requestParams['fields'] = $fields;
 		}
 		else {
-			$requestParams['fields'] = 'approve_status,num_iid,title,nick,type,cid,pic_url,num,props,valid_thru,list_time,price,has_discount,has_invoice,has_warranty,has_showcase, modified,delist_time,postage_id,seller_cids,outer_id';
+			$requestParams['fields'] = 'approve_status,num_iid,title,nick,type,cid,pic_url,num,props,valid_thru,list_time,price,has_discount,has_invoice,has_warranty,has_showcase, modified,delist_time,postage_id,seller_cids,outer_id,is_virtual,is_taobao,is_ex';
 		}
 		if (is_array($params)) {
 			$requestParams = array_merge($requestParams, $params);
@@ -208,6 +61,7 @@ class UserModel extends Model
 		$ret = $this->topClient->exec($requestParams);
 		return $ret;
 	}
+	
 	//获取销售中的宝贝
 	public function getOnsaleItems($fields, $params) {
 		$requestParams['method'] = 'taobao.items.onsale.get';
@@ -224,6 +78,7 @@ class UserModel extends Model
 		$ret = $this->topClient->exec($requestParams);
 		return $ret;
 	}
+	
 	//获取橱窗中的宝贝
 	public function getOnShowcaseItems($params) {
 		$requestParams['has_showcase'] = 'true';
@@ -484,67 +339,4 @@ class UserModel extends Model
 		$ret = $this->topClient->exec($requestParams);
 		return $ret;	
 	}
-	
-	public function updateTrades($trades) {
-		if(!is_array($trades)) {
-			return false;
-		}
-		$tradeModel = D('Trade');
-		//$tradeModel->startTrans();
-		foreach($trades as $trade) {
-			$tid = $trade['tid'];
-			$trade['user_id'] = $this->userId;
-			$ret = $tradeModel->where("tid={$tid}")->count();
-			$replaced = false;
-			if ($ret>0) {
-				$replaced = true;
-			}
-			$isCommit = true;
-			$return = $tradeModel->add($trade, array(), $replaced);
-			/*
-			if (!$return) {
-				$isCommit = false;
-				break;
-			}
-			*/
-			$orders = $trade["orders"]["order"];
-			foreach($orders as $order) {
-				$orderModel = D('Order');
-				$order['tid'] = $tid;
-				$ret = $orderModel->where("tid={$orders}")->count();
-				$replaced = false;
-				if ($ret>0) {
-					$replaced = true;
-				}
-				$return = $orderModel->add($order, array(), $replaced);
-				//fire_log($orderModel->getLastSql(), "last add order sql");
-				/*
-				if (!$return) {
-					$isCommit = false;
-					break 2;
-				}
-				*/
-			}
-		}
-		/*
-		if ($isCommit) {
-			$tradeModel->commit();
-		}
-		else {
-			$tradeModel->rollback();
-			return false;
-		}
-		*/
-	}
 }
-
-
-
-
-
-
-
-
-
-
-?>

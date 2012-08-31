@@ -23,13 +23,13 @@
             		<li><a id="menu_mainpage">掌柜说-主页</a></li>
 					<li><a id="menu_set_group">掌柜说-宝贝分组</a></li>
             		<li><a id="menu_auto_onsell">掌柜说-自动上架</a>
-					<ul class="left_menu">
+					<ul class="left_submenu">
                 		<li><a id="menu_auto_onsell_setting">自动上架-参数设置</a></li>
                 		<li><a id="menu_auto_onsell_log">自动上架-查看日志</a></li>
 					</ul>
 					</li>
            			<li><a id="menu_auto_showcase">掌柜说-自动橱窗</a>
-					<ul class="left_menu">
+					<ul class="left_submenu">
                 		<li><a id="menu_auto_showcase_setting">自动橱窗-参数设置</a></li>
                 		<li><a id="menu_auto_showcase_log">自动橱窗-查看日志</a></li>
 					</ul>
