@@ -23,8 +23,34 @@ class IndexAction extends Action
 	
 	protected function _debug() {
 		//$this->userModel->updateUserInfo();
-		$this->userModel->deleteAllItems();
-		$this->userModel->updateItems();
+		//$this->userModel->deleteAllItems();
+		//$this->userModel->updateItems();
+//  		$ret = $this->userModel->createItemGroup("group1", "my group");
+//  		$ret = $this->userModel->createItemGroup("group2", "my group");
+		
+// 		$ret = $this->userModel->deleteItemGroupById(37);
+// 		if ($ret) {
+// 			fire_log("delete 28","delete");
+// 		}
+// 		else {
+// 			fire_log("delete fail","delete");
+// 		}
+		$ret = $this->userModel->getItemGroupByName("group1");
+		if ($ret) {
+			fire_log($ret);
+		}
+		else {
+			fire_log("fail", "getItemGroupById");
+		}
+		/*
+		$ret = $this->userModel->getItemGroupByName("group3");
+		if ($ret) {
+			fire_log($ret);
+		}
+		else {
+			fire_log("fail", "getItemGroupByName");
+		}
+		*/
 		/*
 		fire_log(LoginAction::getLoginInfo(), '登陆信息');
 		FirePHP::getInstance(true)->log($this->userModel->_getTopUserInfo(), '用户信息');

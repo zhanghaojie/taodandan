@@ -152,6 +152,7 @@ class UserModel extends Model
 		$items = $this->topAccessor->getInventoryItems();
 		$items = $items['items']['item'];
 		
+		$this->deleteAllItems();
 		$itemModel = D('Item');
 		foreach($items as $item) {
 			$item['user_id'] = $this->userId;
@@ -172,18 +173,48 @@ class UserModel extends Model
 			}
 		}
 	}
+	
+	public function isGroupNameExist($groupName) {
+		$itemGroupModel = new ItemGroupModel($this->userId);
+		return $itemGroupModel->isGroupNameExist($groupName);
+	}
+	
 	//创建宝贝分组
-	public function createItemGroup($groupName) {
-		
+	public function createItemGroup($groupName, $remark) {
+		$itemGroupModel = new ItemGroupModel($this->userId);
+		return $itemGroupModel->createGroup($groupName, $remark);
+	}
+	
+	public function deleteItemGroupById($groupId) {
+		$itemGroupModel = new ItemGroupModel($this->userId);
+		return $itemGroupModel->deleteGroupById($groupId);
+	}
+	
+	public function deleteItemGroupByName($groupName) {
+		$itemGroupModel = new ItemGroupModel($this->userId);
+		return $itemGroupModel->deleteGroupByName($groupName);
 	}
 	
 	public function getItemGroupById($groupId) {
-		
+		$itemGroupModel = new ItemGroupModel($this->userId);
+		return $itemGroupModel->getGroupById(getGroupById);
 	}
 	
 	public function getItemGroupByName($groupName) {
+		$itemGroupModel = new ItemGroupModel($this->userId);
+		return $itemGroupModel->getGroupByName($groupName);
+	}
+	
+	public function deleteItemFromGroup($groupId, $itemId) {
+	
+	}
+	
+	public function addItemToGroup() {
 		
 	}
+	
+	
+	
 	
 	//获取剩余橱窗
 	public function getShopRemainShowcase() {
