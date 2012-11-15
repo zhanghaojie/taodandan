@@ -13,5 +13,6 @@ return array(
 	'DB_PORT'               => '3306',        // 端口
 	'DB_PREFIX'             => 'sk_',    // 数据库表前缀
 	'APP_AUTOLOAD_PATH' =>'@.Common',
+	'URL_CASE_INSENSITIVE' => true,
 );
 ?>

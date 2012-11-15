@@ -13,12 +13,11 @@ class IndexAction extends Action
 		parent::__construct();
 		$this->client = new TopClient();
 		$this->client->appkey = TOP_APP_KEY;
-    	$this->client->secretKey = TOP_APP_SECRET;
-    	$this->client->gatewayUrl = TOP_API_URL;
-    	$this->client->format = "json";
+  	$this->client->secretKey = TOP_APP_SECRET;
+  	$this->client->gatewayUrl = TOP_API_URL;
+  	$this->client->format = "json";
 		$this->client->checkRequest = false;
-    	
-    	$this->userModel = new UserModel();
+  	//$this->userModel = new UserModel();
 	}
 	
 	protected function _debug() {
@@ -89,13 +88,17 @@ class IndexAction extends Action
 	
     public function index() {
     	if (LoginAction::isLogin() === true) {
-    		$this->_debug();
+    		//$this->_debug();
     		$this->mainPage();
     	}
     	else {
     		//显示我们的首页
         	$this->display('index');
     	}
+    }
+    
+    public function loginResponse() {
+    	
     }
 	
     public function login() {

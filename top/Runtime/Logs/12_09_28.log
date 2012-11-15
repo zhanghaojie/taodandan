@@ -1,0 +1,235 @@
+[ 2012-09-28T03:37:54+08:00 ] /taodandan/index.php | ERR: (ThinkException) 模板不存在[./top/Tpl/Index/Index.html]
+[ 2012-09-28T03:38:32+08:00 ] /taodandan/index.php | ERR: (ThinkException) 模板不存在[./top/Tpl/Index/Index.html]
+[ 2012-09-28T03:38:40+08:00 ] /taodandan/index.php | ERR: (ThinkException) 模板不存在[./top/Tpl/Index/Index.html]
+[ 2012-09-28T03:38:46+08:00 ] /taodandan/index.php | ERR: (ThinkException) 模板不存在[./top/Tpl/Index/Index.html]
+[ 2012-09-28T03:39:15+08:00 ] /taodandan/index.php | ERR: (ThinkException) 模板不存在[./top/Tpl/Index/Index.html]
+[ 2012-09-28T03:39:33+08:00 ] /taodandan/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-09-28T03:39:33+08:00 ] /taodandan/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000822s ]
+[ 2012-09-28T03:39:33+08:00 ] /taodandan/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000924s ]
+[ 2012-09-28T03:39:34+08:00 ] /taodandan/index.php | NOTIC: [2] Missing argument 1 for UserModel::__construct(), called in C:\xampp\htdocs\taodandan\top\Lib\Action\IndexAction.class.php on line 21 and defined UserModel.class.php 第 17 行.
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.005607s ]
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | NOTIC: [8] Undefined variable: userId UserModel.class.php 第 20 行.
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.001482s ]
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.001580s ]
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.013382s ]
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013463s ]
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.000832s ]
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.000769s ]
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000587s ]
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000869s ]
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003240s ]
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000977s ]
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001049s ]
+[ 2012-09-28T03:39:35+08:00 ] /taodandan/demos.css | ERR: (ThinkException) 无法加载模块demos.css
+[ 2012-09-28T03:39:37+08:00 ] /taodandan/index/login | ERR: (ThinkException) 无法加载模块index
+[ 2012-09-28T03:39:58+08:00 ] /taodandan/login/login.html | INFO: Tag[ route_check ] --START--
+[ 2012-09-28T03:39:58+08:00 ] /taodandan/login/login.html | INFO: Run CheckRoute Behavior [ RunTime:0.000824s ]
+[ 2012-09-28T03:39:58+08:00 ] /taodandan/login/login.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.000897s ]
+[ 2012-09-28T03:39:58+08:00 ] /taodandan/login/login.html | INFO: Tag[ app_begin ] --START--
+[ 2012-09-28T03:39:58+08:00 ] /taodandan/login/login.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000750s ]
+[ 2012-09-28T03:39:58+08:00 ] /taodandan/login/login.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000800s ]
+[ 2012-09-28T03:40:22+08:00 ] /taodandan/index/index.html | INFO: Tag[ route_check ] --START--
+[ 2012-09-28T03:40:22+08:00 ] /taodandan/index/index.html | INFO: Run CheckRoute Behavior [ RunTime:0.000808s ]
+[ 2012-09-28T03:40:22+08:00 ] /taodandan/index/index.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.000881s ]
+[ 2012-09-28T03:40:22+08:00 ] /taodandan/index/index.html | INFO: Tag[ app_begin ] --START--
+[ 2012-09-28T03:40:22+08:00 ] /taodandan/index/index.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000699s ]
+[ 2012-09-28T03:40:22+08:00 ] /taodandan/index/index.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000747s ]
+[ 2012-09-28T03:40:22+08:00 ] /taodandan/index/index.html | NOTIC: [2] Missing argument 1 for UserModel::__construct(), called in C:\xampp\htdocs\taodandan\top\Lib\Action\IndexAction.class.php on line 21 and defined UserModel.class.php 第 17 行.
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.011672s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | NOTIC: [8] Undefined variable: userId UserModel.class.php 第 20 行.
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | SQL: SHOW COLUMNS FROM `sk_item_group` [ RunTime:0.009850s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | SQL: SHOW COLUMNS FROM `sk_item_group` [ RunTime:0.010047s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | SQL: SELECT * FROM `sk_item_group` WHERE name='group1' and user_id=  [ RunTime:0.000644s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Tag[ view_template ] --START--
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.003088s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.003202s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Tag[ view_parse ] --START--
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.015247s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015348s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Tag[ view_filter ] --START--
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000993s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000999s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000790s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.001073s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004071s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Tag[ view_end ] --START--
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.001060s ]
+[ 2012-09-28T03:40:23+08:00 ] /taodandan/index/index.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.001132s ]
+[ 2012-09-28T03:40:24+08:00 ] /taodandan/index/main.css | ERR: (ThinkException) 非法操作main.css
+[ 2012-09-28T03:41:46+08:00 ] /taodandan/Index/index.html | INFO: Tag[ route_check ] --START--
+[ 2012-09-28T03:41:46+08:00 ] /taodandan/Index/index.html | INFO: Run CheckRoute Behavior [ RunTime:0.001205s ]
+[ 2012-09-28T03:41:46+08:00 ] /taodandan/Index/index.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.001274s ]
+[ 2012-09-28T03:41:46+08:00 ] /taodandan/Index/index.html | INFO: Tag[ app_begin ] --START--
+[ 2012-09-28T03:41:46+08:00 ] /taodandan/Index/index.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000820s ]
+[ 2012-09-28T03:41:46+08:00 ] /taodandan/Index/index.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000865s ]
+[ 2012-09-28T03:41:46+08:00 ] /taodandan/Index/index.html | NOTIC: [2] Missing argument 1 for UserModel::__construct(), called in C:\xampp\htdocs\taodandan\top\Lib\Action\IndexAction.class.php on line 21 and defined UserModel.class.php 第 17 行.
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.011281s ]
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | NOTIC: [8] Undefined variable: userId UserModel.class.php 第 20 行.
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_template ] --START--
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.003388s ]
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.003536s ]
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_parse ] --START--
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.023888s ]
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024010s ]
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_filter ] --START--
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.001005s ]
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000968s ]
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000794s ]
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.001010s ]
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003953s ]
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_end ] --START--
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.001025s ]
+[ 2012-09-28T03:41:47+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.001089s ]
+[ 2012-09-28T03:41:48+08:00 ] /taodandan/Index/Public/js/jquery-ui/themes/base/jquery.ui.all.css | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:41:49+08:00 ] /taodandan/Index/demos.css | ERR: (ThinkException) 非法操作demos.css
+[ 2012-09-28T03:41:51+08:00 ] /taodandan/Index/Public/js/jquery-ui/jquery-1.7.2.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:41:52+08:00 ] /taodandan/Index/Public/js/jquery-ui/external/jquery.bgiframe-2.1.2.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:41:53+08:00 ] /taodandan/Index/Public/js/jquery-ui/external/globalize.culture.de-DE.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:41:54+08:00 ] /taodandan/Index/Public/js/jquery-ui/external/globalize.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:41:56+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.ui.core.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:41:57+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.ui.widget.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:41:58+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.ui.mouse.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:41:59+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.ui.accordion.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:42:01+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.ui.autocomplete.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:42:02+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.ui.button.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:42:03+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.ui.datepicker.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:42:05+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.ui.dialog.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:42:06+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.ui.draggable.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:42:07+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.ui.droppable.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:42:08+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.ui.resizable.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:42:10+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/i18n/jquery.ui.datepicker-ar.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:42:11+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.ui.menu.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:42:12+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.ui.tooltip.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:42:13+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/jquery.effects.core.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:42:14+08:00 ] /taodandan/Index/Public/js/jquery-ui/ui/i18n/jquery.ui.datepicker-ka.js | ERR: (ThinkException) 非法操作public
+[ 2012-09-28T03:42:00+08:00 ] /taodandan/Index/index.html | INFO: Tag[ route_check ] --START--
+[ 2012-09-28T03:42:00+08:00 ] /taodandan/Index/index.html | INFO: Run CheckRoute Behavior [ RunTime:0.000933s ]
+[ 2012-09-28T03:42:00+08:00 ] /taodandan/Index/index.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.000990s ]
+[ 2012-09-28T03:42:00+08:00 ] /taodandan/Index/index.html | INFO: Tag[ app_begin ] --START--
+[ 2012-09-28T03:42:00+08:00 ] /taodandan/Index/index.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000658s ]
+[ 2012-09-28T03:42:00+08:00 ] /taodandan/Index/index.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000711s ]
+[ 2012-09-28T03:42:15+08:00 ] /taodandan/Index/index.html | NOTIC: [2] Missing argument 1 for UserModel::__construct(), called in C:\xampp\htdocs\taodandan\top\Lib\Action\IndexAction.class.php on line 21 and defined UserModel.class.php 第 17 行.
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.004036s ]
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | NOTIC: [8] Undefined variable: userId UserModel.class.php 第 20 行.
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_template ] --START--
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001280s ]
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.001334s ]
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_parse ] --START--
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.010522s ]
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010575s ]
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_filter ] --START--
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000770s ]
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000711s ]
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000596s ]
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000747s ]
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002959s ]
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_end ] --START--
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.000739s ]
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/Index/index.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.000787s ]
+[ 2012-09-28T03:42:07+08:00 ] /taodandan/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-09-28T03:42:07+08:00 ] /taodandan/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000929s ]
+[ 2012-09-28T03:42:07+08:00 ] /taodandan/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001001s ]
+[ 2012-09-28T03:42:16+08:00 ] /taodandan/index.php | NOTIC: [2] Missing argument 1 for UserModel::__construct(), called in C:\xampp\htdocs\taodandan\top\Lib\Action\IndexAction.class.php on line 21 and defined UserModel.class.php 第 17 行.
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.010912s ]
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | NOTIC: [8] Undefined variable: userId UserModel.class.php 第 20 行.
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.003452s ]
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.003611s ]
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.020408s ]
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020515s ]
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.001161s ]
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.001222s ]
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001047s ]
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.001314s ]
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004962s ]
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.001336s ]
+[ 2012-09-28T03:42:17+08:00 ] /taodandan/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001416s ]
+[ 2012-09-28T03:42:26+08:00 ] /taodandan/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-09-28T03:42:26+08:00 ] /taodandan/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001104s ]
+[ 2012-09-28T03:42:26+08:00 ] /taodandan/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001160s ]
+[ 2012-09-28T03:42:27+08:00 ] /taodandan/index.php | NOTIC: [2] Missing argument 1 for UserModel::__construct(), called in C:\xampp\htdocs\taodandan\top\Lib\Action\IndexAction.class.php on line 21 and defined UserModel.class.php 第 17 行.
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | SQL: SHOW COLUMNS FROM `sk_user` [ RunTime:0.011669s ]
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | NOTIC: [8] Undefined variable: userId UserModel.class.php 第 20 行.
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.003392s ]
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.003534s ]
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.027374s ]
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.027470s ]
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.000825s ]
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.000827s ]
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000716s ]
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000852s ]
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003377s ]
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.001215s ]
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001289s ]
+[ 2012-09-28T03:42:28+08:00 ] /taodandan/demos.css | ERR: (ThinkException) 无法加载模块Demos.css
+[ 2012-09-28T03:42:30+08:00 ] /taodandan/login/login.html | INFO: Tag[ route_check ] --START--
+[ 2012-09-28T03:42:30+08:00 ] /taodandan/login/login.html | INFO: Run CheckRoute Behavior [ RunTime:0.001630s ]
+[ 2012-09-28T03:42:30+08:00 ] /taodandan/login/login.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.001735s ]
+[ 2012-09-28T03:42:30+08:00 ] /taodandan/login/login.html | INFO: Tag[ app_begin ] --START--
+[ 2012-09-28T03:42:30+08:00 ] /taodandan/login/login.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001373s ]
+[ 2012-09-28T03:42:30+08:00 ] /taodandan/login/login.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001451s ]
+[ 2012-09-28T03:50:44+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDI0MDRlOTM1NzE4YWMyOTY4NWM2ZmY2NzgyMjdjOTNlY2VjYjgyYjM3YzcwMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc0OTgwNDEyJnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=610180423d74181a7729155fd5659fc4eaf3f8cd9ac1c222074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479582-2074082786-CE2976C15BAC5948F7E865E9BBF26D23&top_sign=olQL2t9b3N5B3Y%2FETjq%2BEw%3D%3D | INFO: Tag[ route_check ] --START--
+[ 2012-09-28T03:50:44+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDI0MDRlOTM1NzE4YWMyOTY4NWM2ZmY2NzgyMjdjOTNlY2VjYjgyYjM3YzcwMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc0OTgwNDEyJnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=610180423d74181a7729155fd5659fc4eaf3f8cd9ac1c222074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479582-2074082786-CE2976C15BAC5948F7E865E9BBF26D23&top_sign=olQL2t9b3N5B3Y%2FETjq%2BEw%3D%3D | INFO: Run CheckRoute Behavior [ RunTime:0.000901s ]
+[ 2012-09-28T03:50:44+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDI0MDRlOTM1NzE4YWMyOTY4NWM2ZmY2NzgyMjdjOTNlY2VjYjgyYjM3YzcwMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc0OTgwNDEyJnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=610180423d74181a7729155fd5659fc4eaf3f8cd9ac1c222074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479582-2074082786-CE2976C15BAC5948F7E865E9BBF26D23&top_sign=olQL2t9b3N5B3Y%2FETjq%2BEw%3D%3D | INFO: Tag[ route_check ] --END-- [ RunTime:0.000962s ]
+[ 2012-09-28T03:50:44+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDI0MDRlOTM1NzE4YWMyOTY4NWM2ZmY2NzgyMjdjOTNlY2VjYjgyYjM3YzcwMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc0OTgwNDEyJnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=610180423d74181a7729155fd5659fc4eaf3f8cd9ac1c222074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479582-2074082786-CE2976C15BAC5948F7E865E9BBF26D23&top_sign=olQL2t9b3N5B3Y%2FETjq%2BEw%3D%3D | INFO: Tag[ app_begin ] --START--
+[ 2012-09-28T03:50:44+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDI0MDRlOTM1NzE4YWMyOTY4NWM2ZmY2NzgyMjdjOTNlY2VjYjgyYjM3YzcwMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc0OTgwNDEyJnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=610180423d74181a7729155fd5659fc4eaf3f8cd9ac1c222074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479582-2074082786-CE2976C15BAC5948F7E865E9BBF26D23&top_sign=olQL2t9b3N5B3Y%2FETjq%2BEw%3D%3D | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000573s ]
+[ 2012-09-28T03:50:44+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDI0MDRlOTM1NzE4YWMyOTY4NWM2ZmY2NzgyMjdjOTNlY2VjYjgyYjM3YzcwMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc0OTgwNDEyJnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=610180423d74181a7729155fd5659fc4eaf3f8cd9ac1c222074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479582-2074082786-CE2976C15BAC5948F7E865E9BBF26D23&top_sign=olQL2t9b3N5B3Y%2FETjq%2BEw%3D%3D | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000607s ]
+[ 2012-09-28T03:50:44+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDI0MDRlOTM1NzE4YWMyOTY4NWM2ZmY2NzgyMjdjOTNlY2VjYjgyYjM3YzcwMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc0OTgwNDEyJnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=610180423d74181a7729155fd5659fc4eaf3f8cd9ac1c222074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479582-2074082786-CE2976C15BAC5948F7E865E9BBF26D23&top_sign=olQL2t9b3N5B3Y%2FETjq%2BEw%3D%3D | NOTIC: [8] Undefined offset: 1 Action.class.php 第 233 行.
+[ 2012-09-28T03:50:44+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDI0MDRlOTM1NzE4YWMyOTY4NWM2ZmY2NzgyMjdjOTNlY2VjYjgyYjM3YzcwMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc0OTgwNDEyJnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=610180423d74181a7729155fd5659fc4eaf3f8cd9ac1c222074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479582-2074082786-CE2976C15BAC5948F7E865E9BBF26D23&top_sign=olQL2t9b3N5B3Y%2FETjq%2BEw%3D%3D | NOTIC: [8] Undefined offset: 1 Action.class.php 第 233 行.
+[ 2012-09-28T03:50:44+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDI0MDRlOTM1NzE4YWMyOTY4NWM2ZmY2NzgyMjdjOTNlY2VjYjgyYjM3YzcwMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc0OTgwNDEyJnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=610180423d74181a7729155fd5659fc4eaf3f8cd9ac1c222074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479582-2074082786-CE2976C15BAC5948F7E865E9BBF26D23&top_sign=olQL2t9b3N5B3Y%2FETjq%2BEw%3D%3D | NOTIC: [8] Undefined offset: 1 Action.class.php 第 233 行.
+[ 2012-09-28T04:20:06+08:00 ] /taodandan/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-09-28T04:20:06+08:00 ] /taodandan/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000774s ]
+[ 2012-09-28T04:20:06+08:00 ] /taodandan/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000844s ]
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000780s ]
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000827s ]
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.008225s ]
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008267s ]
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.000456s ]
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.000456s ]
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000344s ]
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000489s ]
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001836s ]
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000522s ]
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000565s ]
+[ 2012-09-28T04:20:07+08:00 ] /taodandan/demos.css | ERR: (ThinkException) 无法加载模块Demos.css
+[ 2012-09-28T04:20:11+08:00 ] /taodandan/login/login.html | INFO: Tag[ route_check ] --START--
+[ 2012-09-28T04:20:11+08:00 ] /taodandan/login/login.html | INFO: Run CheckRoute Behavior [ RunTime:0.000749s ]
+[ 2012-09-28T04:20:11+08:00 ] /taodandan/login/login.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.000802s ]
+[ 2012-09-28T04:20:11+08:00 ] /taodandan/login/login.html | INFO: Tag[ app_begin ] --START--
+[ 2012-09-28T04:20:11+08:00 ] /taodandan/login/login.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000536s ]
+[ 2012-09-28T04:20:11+08:00 ] /taodandan/login/login.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000571s ]
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | INFO: Tag[ route_check ] --START--
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | INFO: Run CheckRoute Behavior [ RunTime:0.001383s ]
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | INFO: Tag[ route_check ] --END-- [ RunTime:0.001469s ]
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | INFO: Tag[ app_begin ] --START--
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000973s ]
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001039s ]
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined offset: 1 Action.class.php 第 233 行.
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined offset: 1 Action.class.php 第 233 行.
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined offset: 1 Action.class.php 第 233 行.
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined index: refresh_token LoginAction.class.php 第 54 行.
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined index: visitor_id LoginAction.class.php 第 55 行.
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined index: visitor_nick LoginAction.class.php 第 56 行.
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined index: sub_visitor_id LoginAction.class.php 第 57 行.
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined index: sub_taobao_user_nick LoginAction.class.php 第 58 行.
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined index: expires_in LoginAction.class.php 第 59 行.
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined index: re_expires_in LoginAction.class.php 第 60 行.
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined index: r1_expires_in LoginAction.class.php 第 61 行.
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined index: r2_expires_in LoginAction.class.php 第 62 行.
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined index: w1_expires_in LoginAction.class.php 第 63 行.
+[ 2012-09-28T04:20:32+08:00 ] /taodandan/login/login.html?top_appkey=1012681999&top_parameters=ZXhwaXJlc19pbj04NjQwMCZocmFfZXhwaXJlc19pbj0xODAwJmlmcmFtZT0xJnIxX2V4cGlyZXNfaW49MTgwMCZyMl9leHBpcmVzX2luPTAmcmVfZXhwaXJlc19pbj0xNTU1MjAwMCZyZWZyZXNoX3Rva2VuPTYxMDA0MDJhYmQxODdlOTgyOTE5NWI0NWNhYTU0YWE1ZDNmYTAyZmE1NDIzZjRmMjA3NDA4Mjc4NiZ0cz0xMzQ4Nzc3MjMxMzk4JnZpc2l0b3JfaWQ9MjA3NDA4Mjc4NiZ2aXNpdG9yX25pY2s9c2FuZGJveF9jXzEmdzFfZXhwaXJlc19pbj0xODAwJncyX2V4cGlyZXNfaW49MA%3D%3D&top_session=6101b024c11ad9336929c8349f89f10758d9ca09e4eb1652074082786&encode=utf-8&agreement=true&agreementsign=1012681999-22479620-2074082786-AB0DE708828A852D942CCAEF064AC968&top_sign=HcJUCz2zA%2BfPAUcC8JDZ%2Bg%3D%3D | NOTIC: [8] Undefined index: w2_expires_in LoginAction.class.php 第 64 行.

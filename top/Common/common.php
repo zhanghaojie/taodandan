@@ -18,13 +18,15 @@ function sync_request($url, $params, $method='POST') {
 	if ($params) {
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
 	}
-	$json_result = curl_exec($ch);
+	$result = curl_exec($ch);
 	curl_close($ch);
-	if ($json_result) {
-		$decode_result = json_decode($json_result, true);
+	/*
+	if ($result) {
+		$decode_result = json_decode($result, true);
 		return $decode_result;
 	}
-	return false;
+	*/
+	return $result;
 }
 
 function top_log($message) {

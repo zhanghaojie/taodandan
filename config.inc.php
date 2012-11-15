@@ -9,6 +9,8 @@ define('APP_HOST', 'http://localhost');
 //淘宝相关配置
 define('TOP_REDIRECT_URI', APP_HOST . '/taodandan/login/login.html');
 
+define('CORE_SERVER', "localhost:8090");
+
 if (APP_AUTH_TYPE === 'TOP') {
 	define('TOP_IS_SIGNAL', true);
 }

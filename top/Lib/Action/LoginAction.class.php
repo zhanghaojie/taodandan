@@ -8,18 +8,6 @@ class LoginAction extends Action
 		return Session::get('is_login');
 	}
 	
-	static public function getAccessToken() {
-		$auth_type = LoginAction::getAuthType();
-		if ($auth_type === 'TOP') {
-			return Session::get('top_session');
-		}
-		else if ($auth_type === 'AUTH'){
-			$user_info = Session::get('login_info');
-			$access_token = $user_info['access_token'];
-			return $access_token;
-		}
-	}
-	
 	static public function getLoginInfo() {
 		return Session::get('login_info');
 	}
@@ -33,12 +21,43 @@ class LoginAction extends Action
 		$top_session = $this->_get('top_session');
 		$top_sign = $this->_get('top_sign');
 		if ($top_parameters != null && $top_session != null && $top_sign != null) {
+			$param_decode = base64_decode($top_parameters);
+			$values = explode("&", $param_decode);
+			$map = array();
+			foreach($values as $key => $value) {
+				$keyValues = explode('=', $value);
+				$map[urldecode($keyValues[0])] = urldecode($keyValues[1]);
+			}
+			
+			$loginInfo = array();
+			//$loginInfo['auth_type'] = 'TOP';
+			$loginInfo['access_token'] = $top_session;
+			$loginInfo['refresh_token'] = $map['refresh_token'];
+			$loginInfo['user_id'] = $map['visitor_id'];
+			$loginInfo['nick'] = $map['visitor_nick'];
+			
+			$loginInfo['sub_user_id'] = $map['sub_visitor_id'];
+			$loginInfo['sub_user_nick'] = $map['sub_taobao_user_nick'];
+			$loginInfo['expires_in'] = $map['expires_in'];
+			$loginInfo['re_expires_in'] = $map['re_expires_in'];
+			$loginInfo['r1_expires_in'] = $map['r1_expires_in'];
+			$loginInfo['r2_expires_in'] = $map['r2_expires_in'];
+			$loginInfo['w1_expires_in'] = $map['w1_expires_in'];
+			$loginInfo['w2_expires_in'] = $map['w2_expires_in'];
+			Session::set("login_response", $loginInfo);
 			Session::set('is_login', true);
-			Session::set('auth_type', 'TOP');
-			Session::set('top_session', $top_session);
-			Session::set('top_parameters', $top_parameters);
-			Session::set('top_sign', $top_sign);
-			$this->redirect('Index/login');
+			
+			$post = array();
+			$post['method'] = 'user.login';
+			$post['v'] = '1.0';
+			$post['appKey'] = 'sk_app_key';
+			$post['format'] = 'json';
+			$post = array_merge($post, $loginInfo);
+			//dump($post);
+			$result = sync_request("http://localhost:8090/router", $post);
+			dump ($result);
+			//exit;
+			//$this->redirect('Index/loginResponse');
 		}
 		else {
 			$auth_request_url = TOP_AUTH_URL."?appkey=".TOP_APP_KEY."&encode=utf-8&scope=promotion,item,usergrade";
